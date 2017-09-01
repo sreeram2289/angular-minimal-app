@@ -1,0 +1,44 @@
+<h1>
+    {{title}}
+</h1>
+<div>
+    <label>ID: </label>{{person.id}}
+</div>
+<div>
+    <label>Name: </label>
+    <input [(ngModel)] = "person.name" placeholder="name" >{{person.name}}
+</div>
+<div>
+    <label>Phone: </label>
+    <input [(ngModel)] = "person.phone" placeholder="phone" >{{person.phone}}
+</div>
+<div>
+    <label>Address: </label>
+    <input [(ngModel)] = "person.address" placeholder="address" >{{person.address}}
+</div>
+<div>
+    <label>City: </label>
+    <input [(ngModel)] = "person.city" placeholder="city" >{{person.city}}
+</div>
+<div>
+    <label>State: </label>
+    <input [(ngModel)] = "person.state" placeholder="state" >{{person.state}}
+</div>
+<div>
+    <label>Zip: </label>
+    <input [(ngModel)] = "person.zip" placeholder="Zip Code" >{{person.zip}}
+</div>
+
+<h2> Sample Bootstrap form </h2>
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

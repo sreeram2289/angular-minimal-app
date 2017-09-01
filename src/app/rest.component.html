@@ -1,0 +1,12 @@
+<div>
+<ng-container *ngFor="let article of articleArray">
+    <h1>{{article.title}}</h1>
+    <h2><label>Author: </label>{{article.author}}</h2>
+    <p>
+        {{article.description}}
+    </p>
+    <label>Published at: </label>{{article.publishedAt}}
+    <br />
+    <br />
+</ng-container>
+</div>
